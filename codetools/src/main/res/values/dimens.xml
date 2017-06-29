@@ -1,0 +1,35 @@
+<resources>
+
+    <dimen name="s1">17sp</dimen>
+    <dimen name="s2">15sp</dimen>
+    <dimen name="s3">16sp</dimen>
+    <dimen name="s4">12sp</dimen>
+    <dimen name="s5">10sp</dimen>
+    <dimen name="s6">19sp</dimen>
+    <dimen name="s7">14sp</dimen>
+    <dimen name="s8">22sp</dimen>
+    <dimen name="s9">11sp</dimen>
+    <dimen name="s10">18sp</dimen>
+    <dimen name="s11">20sp</dimen>
+
+
+    <!--头像 尺寸-->
+    <dimen name="p1">30dp</dimen>
+    <dimen name="p2">36dp</dimen>
+    <dimen name="p3">40dp</dimen>
+    <dimen name="p4">45dp</dimen>
+    <dimen name="p5">60dp</dimen>
+    <dimen name="p6">65dp</dimen>
+    <dimen name="p7">90dp</dimen>
+    <dimen name="p10">20dp</dimen>
+    <dimen name="p11">25dp</dimen>
+    <dimen name="p12">75dp</dimen>
+    <dimen name="p13">70dp</dimen>
+    <dimen name="p14">100dp</dimen>
+    <dimen name="p15">140dp</dimen>
+    <dimen name="p16">50dp</dimen>
+
+    <dimen name="verficCodePaddingWidth">14dp</dimen>
+
+
+</resources>
