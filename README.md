@@ -11,13 +11,24 @@
 ## Android工具类 
 <br><br><br>
 ## Android自定义控件
+
+1. 自定义密码、验证码输入框，类似于支付、微信支付的密码输入界面
+
+```js
+ VerifyCodeView.setInputFinishListener(new VerifyCodeView.InputFinishListener() {
+            @Override
+            public void inputFinish(String strCode) {
+                  //密码输入完成，做你想做的
+            }
+        });
+```
 ![自定义验证码输入框](http://orsggluk8.bkt.clouddn.com/image/github/2017-07-03-%E9%AA%8C%E8%AF%81%E7%A0%81%E8%BE%93%E5%85%A5%E6%A1%86.gif)
 
 ## Android自定义动画
 
 ## Licenses
 ```
- Copyright 2016 JackYang(杨保疆)
+ Copyright 2017 JackYang(杨保疆)
 
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
