@@ -1,0 +1,10 @@
+.DS_Store
+.idea/
+.gradle/
+captures/
+build/
+*.iml
+local.properties
+timeStamp
+app/channel/out/
+/gradle

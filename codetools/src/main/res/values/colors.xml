@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">@color/w1</color>
+    <color name="white">@color/w5</color>
+
+    <!-- 应用主题颜色调整 -->
+    <color name="colorToolbarText">@color/white</color> <!-- toolbar 文字颜色 -->
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorSplashBackground">@color/white</color> <!-- Splash 背景色 -->
+    <color name="colorDefaultWindowBackground">@color/c5</color> <!-- Activity 背景色 -->
+    <color name="colorPrimaryDark">@color/black</color>  <!-- 状态条背景色 -->
+    <color name="colorAccent">@color/c7</color> <!-- 着重文字颜色(链接) -->
+    <color name="colorControlActivated">#b8b8b8</color> <!-- 控件激活时颜色 -->
+
+    <color name="defaultMainText">@color/black</color>
+    <color name="defaultHintText">@color/w3</color>
+    <color name="defaultDivisionLine">@color/w3</color>
+    <color name="defaultLinkText">@color/c7</color>
+
+    <!-- ==================样式表规范 颜色编号================== -->
+
+    <color name="c1">#ffda58</color>
+    <color name="c2">#ffeb01</color>
+    <color name="c3">#e1473c</color>
+    <color name="c4">#313133</color>
+    <color name="c5">#ededed</color>
+    <color name="c6">#f08e93</color>
+    <color name="c7">#79A7D3</color>
+    <color name="c8">#f2f2f2</color>
+    <color name="c9">#df4841</color>
+    <color name="c10">#484848</color>
+
+    <color name="w1">#1f2022</color>
+    <color name="w2">#8f8f90</color>
+    <color name="w3">#cbcbcf</color>
+    <color name="w4">#cd7c08</color>
+    <color name="w5">#ffffff</color>
+
+</resources>
