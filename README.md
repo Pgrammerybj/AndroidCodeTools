@@ -1,3 +1,4 @@
+![](http://orsggluk8.bkt.clouddn.com/image/github/2017-08-02-AdnroidcodeTools.jpg)
 # AndroidCodeTools (持续更新...)
 
 > 写这个Tools前我就一直在想，我们自己的项目中有很多很棒的工具类和一些自定义的View，而这些View或者工具类在网上或有或没，既然他们懒得弄或者不屑弄，那好吧我来整理吧。也就是基于这个原因我开始创建并且维护这个库，我所希望的是这个库能帮助到一部分Android初级的开发人员，也希望每一个看到 AndroidCodeTools 
