@@ -12,4 +12,10 @@
         android:text="@string/verify_code_input"
         android:textSize="@dimen/sp_14"/>
 
+    <Button
+        style="@style/Btn.Blue"
+        android:onClick="goHypertext"
+        android:text="@string/hypertext_android"
+        android:textSize="@dimen/sp_14"/>
+
 </LinearLayout>

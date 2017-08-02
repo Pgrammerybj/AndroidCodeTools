@@ -2,4 +2,9 @@
     <string name="app_name">AndroidCodeTools</string>
     <string name="verify_code_input">自定义密码、验证码输入框</string>
     <string name="verify_code_success">输入完成想干嘛干嘛</string>
+    <string name="hypertext_android">超文本链接及View的处理</string>
+
+    <string name="information_001">成为会员即同意《嗨起会员协议》和《连续订阅会员服务协议》自动订阅 </string>
+    <string name="information_002">成为会员即表示同意《嗨起会员协议》</string>
+    <string name="information_003">点击了《嗨起会员协议》，做你想做的</string>
 </resources>

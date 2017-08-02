@@ -27,4 +27,8 @@ public class MainActivity extends AppCompatActivity {
     public void goVerifyCode(View view) {
         startActivity(new Intent(this,VerityCodeDemo.class));
     }
+
+    public void goHypertext(View view) {
+        startActivity(new Intent(this,HypertextDemo.class));
+    }
 }
