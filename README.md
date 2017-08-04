@@ -58,7 +58,25 @@
 ⬆️上面是TextView文本中有多个点击事件的调用方式<br><br>
 （怎么效果图没有动画？哈哈不要捉急，稍微等一下咯）<br>
 ![](http://orsggluk8.bkt.clouddn.com/image/github/2017-08-02-%E8%B6%85%E6%96%87%E6%9C%AC%E7%82%B9%E5%87%BB.gif)<br><br>
-总结一下吧：目前是获取相应需要有点击事件和变色的文本的角标来实现的，还是有些许麻烦，望广大朋友给点儿优化意见和建议。
+总结一下吧：目前是获取相应需要有点击事件和变色的文本的角标来实现的，还是有些许麻烦，望广大朋友给点儿优化意见和建议。<br>
+
+2.基于HorizontalScrollView实现ViewPager的tab指示栏效果<br><br>
+![Fragment_02](http://orsggluk8.bkt.clouddn.com/image/github/2017-08-04-fragment_02.gif)
+![Fragment_03](http://orsggluk8.bkt.clouddn.com/image/github/2017-08-04-fragment_03.gif)<br><br>
+ * 支持自定义Tab栏的颜色、高度、点击以及条目个数
+ * 支持条目文字的大小、颜色设置
+ * 支持文字底部横向指示条的颜色、高度以及间距
+ * 如需更多功能，请联系我咯
+
+```js
+        //真正的实现一行调用，让广大开发者朋友能够happy的做需求。（具体的配置方式可参考库中的demo）
+        PagerSlidingTabStrip pagerTitle = (PagerSlidingTabStrip) findViewById(R.id.topic_viewpager_title);
+        ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager_fragment);
+        viewPager.setAdapter(pagerAdapter);
+        //将目标viewPager添加到指示器中
+        pagerTitle.setViewPager(viewPager);
+```
+
 <br><br><br>
 ## Android自定义控件
 

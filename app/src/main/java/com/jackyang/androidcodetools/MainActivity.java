@@ -31,4 +31,8 @@ public class MainActivity extends AppCompatActivity {
     public void goHypertext(View view) {
         startActivity(new Intent(this,HypertextDemo.class));
     }
+
+    public void goViewPagerHead(View view) {
+        startActivity(new Intent(this,PagerSlidingTabStripDemo.class));
+    }
 }

@@ -18,4 +18,10 @@
         android:text="@string/hypertext_android"
         android:textSize="@dimen/sp_14"/>
 
+    <Button
+        style="@style/Btn.Blue"
+        android:onClick="goViewPagerHead"
+        android:text="@string/viewpager_PagerSlidingTab"
+        android:textSize="@dimen/sp_14"/>
+
 </LinearLayout>
